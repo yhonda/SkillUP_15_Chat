@@ -1,0 +1,6 @@
+framework module Pods_SkillUP_15_Chat {
+  umbrella header "Pods-SkillUP_15_Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}
