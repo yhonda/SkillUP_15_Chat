@@ -73,7 +73,7 @@ private extension MessageListViewController {
     func reloadMessageList() {
         dataSource.set(messages: MessageDao.findAll())
         tableView.reloadData()
-        tableView.scrollToBottom()
+//        tableView.scrollToBottom()
     }
 
     // TextViewの位置調整
